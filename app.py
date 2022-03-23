@@ -52,7 +52,7 @@ def login():
             return redirect(next)
     return render_template('login.html', form=form)
 
-@app.route('/login', methods=['GET', 'POST'])
+@app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegistrationForm()
 
